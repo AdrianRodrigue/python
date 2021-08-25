@@ -1,0 +1,27 @@
+#A string 
+
+class_name = "p5_DeLinquents "   
+student1 = "carlos"        
+top_delinquents = "Nicholas, Gianna, Gonzalo, "
+class_students = class_name + top_delinquents + student1
+
+print(class_students)
+
+same_name = "2"
+third_student = 3
+Student2 = "Carlos" + same_name
+print(Student2) 
+student3 = "carlos" + str(third_student)
+print(student3)
+
+#int
+grade1 = input("what did you get in p1?")
+grade2 = input("what did you get in p2?")
+grade3 = input("what did you get in p3?")
+grade4 = input("what did you get in p4?")
+
+print("To verify: you scored: " + "\n" + str(grade1) + "\n" + str(grade2) 
+      + "\n" + grade3 + "\n" + grade4)
+
+gpa = (int(grade1) + int(grade2) + int(grade3) + int(grade4)) / 4
+print("GPA: " + str(gpa))
